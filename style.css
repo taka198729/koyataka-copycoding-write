@@ -1,0 +1,342 @@
+@charset "UTF-8";
+body {
+  font-family: Georgia, 游明朝, YuMincho, "Hiragino Mincho ProN", Meiryo, serif;
+  margin: 60px 40px;
+}
+
+body a {
+  text-decoration: none;
+}
+
+body ul {
+  list-style-type: none;
+}
+
+body .container {
+  width: 1035px;
+  margin: 0 auto;
+}
+
+body .container header {
+  height: 153px;
+  margin-top: 60px;
+}
+
+body .container header nav {
+  max-width: 1035px;
+  margin-left: auto;
+  margin-left: auto;
+}
+
+body .container header nav .header-left {
+  float: left;
+  line-height: 1.4;
+}
+
+body .container header nav .header-left h1 {
+  font-size: 36px;
+}
+
+body .container header nav .header-left h1 a {
+  color: #111111;
+}
+
+body .container header nav .header-left p {
+  font-size: 18px;
+  color: #777777;
+}
+
+body .container header nav .header-right {
+  float: right;
+  padding-top: 48px;
+}
+
+body .container header nav .header-right a {
+  color: #444444;
+}
+
+body .container header nav .header-right .menu-area {
+  padding-right: 209px;
+}
+
+body .container header nav .header-right .menu-area .fas {
+  padding-left: 13px;
+}
+
+body .container header nav .header-right .menu-area li {
+  font-size: 16.884px;
+  float: left;
+  padding: 0 18px;
+  position: relative;
+}
+
+body .container header nav .header-right .menu-area li a {
+  display: block;
+  padding-bottom: 30px;
+}
+
+body .container header nav .header-right .menu-area li a:hover {
+  color: #C49029;
+}
+
+body .container header nav .header-right .menu-area li ul {
+  position: absolute;
+  top: 45px;
+  left: -5px;
+  visibility: hidden;
+}
+
+body .container header nav .header-right .menu-area li ul li {
+  width: 200px;
+  border: solid 1px #F0F0F0;
+  padding: 10px 20px 0 20px;
+  -webkit-box-shadow: 0.5px 0.5px #f0f0f0;
+          box-shadow: 0.5px 0.5px #f0f0f0;
+  background-color: white;
+  opacity: 0;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+}
+
+body .container header nav .header-right .menu-area li ul li a {
+  display: block;
+}
+
+body .container header nav .header-right .menu-area li:hover ul li {
+  visibility: visible;
+  opacity: 0.8;
+}
+
+body .container header nav .header-right .search-area {
+  height: 40px;
+  display: inline-block;
+  float: right;
+  position: relative;
+}
+
+body .container header nav .header-right .search-area .search {
+  height: 40px;
+  width: 0;
+  background: url(search-icon.png) left center no-repeat;
+  background-size: 24px 24px;
+  padding-left: 30px;
+  font-size: 16px;
+  border: none;
+  position: absolute;
+  top: -15px;
+  right: 0;
+  outline: none;
+  cursor: pointer;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+body .container header nav .header-right .search-area .search:focus {
+  height: 40px;
+  width: 230px;
+  border: 1px solid #e0e0e0;
+  background-color: white;
+  cursor: text;
+}
+
+body .container main {
+  border-bottom: 1px solid #ccc;
+  padding-bottom: 150px;
+}
+
+body .container main .top-area {
+  height: 808px;
+}
+
+body .container main .top-area p {
+  padding: 90px 0 130px 0;
+  font-size: 27px;
+  color: #777777;
+}
+
+body .container main article section .date a time {
+  float: left;
+  margin-right: 210px;
+  font-size: 20.884px;
+  color: #999999;
+  opacity: 0.5;
+}
+
+body .container main article section .date a time:hover {
+  cursor: pointer;
+  opacity: 1;
+}
+
+body .container main article section .article {
+  width: 628px;
+  display: inline-block;
+}
+
+body .container main article section .article a {
+  font-size: 22.4px;
+  color: #111111;
+}
+
+body .container main article section .article a:hover {
+  color: #C49029;
+}
+
+body .container main article section .article p {
+  padding-top: 38px;
+  font-size: 16.884px;
+  color: #666666;
+}
+
+body .container main .pagenation {
+  margin-left: 320px;
+  padding-top: 82px;
+}
+
+body .container main .pagenation li {
+  float: left;
+  font-size: 16.884px;
+  display: inline-block;
+  border: 1px solid #ccc;
+  padding: 8px 18px;
+  margin-left: 6px;
+}
+
+body .container main .pagenation li a {
+  color: #333333;
+}
+
+body .container main .pagenation .this {
+  background-color: #EEEEEE;
+  opacity: 1;
+}
+
+body .container footer {
+  padding-top: 76px;
+}
+
+body .container footer .profile-area {
+  width: 236.16px;
+  float: left;
+}
+
+body .container footer .profile-area .photo {
+  border-radius: 50%;
+  height: 100px;
+  width: 100px;
+  float: left;
+}
+
+body .container footer .profile-area .profile-heading {
+  font-size: 19px;
+  padding: 20px 0 40px 20px;
+  display: inline-block;
+}
+
+body .container footer .profile-area .profile-heading a {
+  color: #999;
+}
+
+body .container footer .profile-area .profile-heading a .fab {
+  color: #666666;
+  padding-right: 10px;
+  opacity: 0.7;
+}
+
+body .container footer .profile-area .profile-heading a .fab:hover {
+  opacity: 1;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+body .container footer .profile-area .profile-text {
+  padding-top: 30px;
+  color: #666666;
+  font-size: 16.884px;
+}
+
+body .container footer .sub-menu .sub {
+  float: left;
+  width: 188px;
+  margin-left: 46px;
+}
+
+body .container footer .sub-menu .sub .sub-heading {
+  font-size: 14.4px;
+  color: #333333;
+  padding-bottom: 44px;
+}
+
+body .container footer .sub-menu .sub .sub-text {
+  font-size: 15.8372px;
+  color: #666666;
+}
+
+body .container footer .sub-menu .sub .sub1 li {
+  padding-bottom: 5px;
+}
+
+body .container footer .sub-menu .sub .sub1 li a {
+  color: #666666;
+  font-size: 16.884px;
+  border-bottom: solid 1px #ddd;
+}
+
+body .container footer .sub-menu .sub .sub1 li a:hover {
+  color: #C49029;
+}
+
+body .container footer .sub-menu .sub .sub1 time {
+  font-size: 14.6384px;
+  color: #999999;
+  padding-bottom: 15px;
+  display: inline-block;
+}
+
+body .container footer .sub-menu .sub .sub2 li {
+  padding-bottom: 12px;
+}
+
+body .container footer .sub-menu .sub .sub2 li a {
+  color: #666666;
+  font-size: 16.884px;
+  border-bottom: solid 1px #ddd;
+}
+
+body .container footer .sub-menu .sub .sub2 li a:hover {
+  color: #C49029;
+}
+
+body .container footer .sub-menu .sub .sub-input {
+  margin-top: 95px;
+  width: 191px;
+  height: 41.45px;
+}
+
+body .container footer .sub-menu .sub .sub-input::-webkit-input-placeholder {
+  font-family: Georgia, 游明朝, YuMincho, "Hiragino Mincho ProN", Meiryo, serif;
+  padding-left: 5px;
+  color: #777777;
+  font-size: 17px;
+}
+
+body .container footer .sub-menu .sub .sub-input:-ms-input-placeholder {
+  font-family: Georgia, 游明朝, YuMincho, "Hiragino Mincho ProN", Meiryo, serif;
+  padding-left: 5px;
+  color: #777777;
+  font-size: 17px;
+}
+
+body .container footer .sub-menu .sub .sub-input::-ms-input-placeholder {
+  font-family: Georgia, 游明朝, YuMincho, "Hiragino Mincho ProN", Meiryo, serif;
+  padding-left: 5px;
+  color: #777777;
+  font-size: 17px;
+}
+
+body .container footer .sub-menu .sub .sub-input::placeholder {
+  font-family: Georgia, 游明朝, YuMincho, "Hiragino Mincho ProN", Meiryo, serif;
+  padding-left: 5px;
+  color: #777777;
+  font-size: 17px;
+}
+/*# sourceMappingURL=style.css.map */
